@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.listLinkUl {
+    @apply mt-5 w-60 h-11 bg-orange-100 rounded-md flex;
+}
+
+.linkLogo {
+    @apply w-16 text-4xl  my-1 text-center;
+}
+
+.listUlName {
+    @apply h-full w-full py-2 p-4 border-l-2 font-asap font-medium text-orange-900;
+}
