@@ -556,6 +556,14 @@ video {
   display: flex;
 }
 
+.h-svh {
+  height: 100svh;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
 .w-40 {
   width: 10rem;
 }
