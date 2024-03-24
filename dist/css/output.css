@@ -1332,8 +1332,60 @@ html {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.h-\[80\%\] {
+  height: 80%;
+}
+
+.h-\[90\%\] {
+  height: 90%;
+}
+
+.h-\[100\%\] {
+  height: 100%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[500px\] {
+  height: 500px;
+}
+
+.h-\[900px\] {
+  height: 900px;
+}
+
+.h-\[800px\] {
+  height: 800px;
+}
+
+.h-\[760px\] {
+  height: 760px;
+}
+
+.h-\[700px\] {
+  height: 700px;
+}
+
+.h-\[6px\] {
+  height: 6px;
+}
+
+.h-\[650px\] {
+  height: 650px;
+}
+
+.h-\[600px\] {
+  height: 600px;
+}
+
+.h-\[630px\] {
+  height: 630px;
+}
+
+.h-\[620px\] {
+  height: 620px;
 }
 
 .w-40 {
@@ -1346,10 +1398,6 @@ html {
 
 .w-\[340px\] {
   width: 340px;
-}
-
-.w-full {
-  width: 100%;
 }
 
 .cursor-pointer {
@@ -1490,7 +1538,7 @@ html {
 }
 
 .listLinkUl {
-  margin-top: 1.75rem;
+  margin-top: 1.25rem;
   display: flex;
   height: 2.75rem;
   width: 16rem;
@@ -1519,4 +1567,16 @@ html {
   font-weight: 500;
   --tw-text-opacity: 1;
   color: rgb(124 45 18 / var(--tw-text-opacity));
+}
+
+@media (min-width: 320px) and (max-width: 428px) {
+  .mobile\:h-screen {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desktop\:w-full {
+    width: 100%;
+  }
 }

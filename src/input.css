@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .listLinkUl {
-    @apply mt-7 w-64 h-11 bg-orange-100 rounded-md flex;
+    @apply mt-5 w-64 h-11 bg-orange-100 rounded-md flex;
 }
 
 .linkLogo {
